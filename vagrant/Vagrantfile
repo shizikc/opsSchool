@@ -10,7 +10,7 @@ servers=[
 {
   :hostname => "server2",
   :ip => "192.168.100.11",
-  :box => "ubuntu/precise64",
+  :box => "ubuntu/bionic64",
   :ram => 512,
   :cpu => 1,
   :provisions => ["fixScripts/exercise5-fix_server2.sh","fixScripts/exercise4-fix_server2.sh"]
